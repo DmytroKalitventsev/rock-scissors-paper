@@ -30,7 +30,7 @@ if (player1 == rock && player2 == scissors || player1 == scissors && player2 == 
 		alert('Draw - rock = rock');
 	}
 	if (player1 == scissors && player2 == scissors) {
-		alert('Draw - rock = rock');
+		alert('Draw - scissors = scissors');
 	}
 	if (player1 == paper && player2 == paper) {
 		alert('Draw - paper = paper');
