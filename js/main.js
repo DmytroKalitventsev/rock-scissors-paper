@@ -6,15 +6,39 @@ let scissors = 's';
 let paper = 'p';
 
 if (player1 == rock && player2 == scissors || player1 == scissors && player2 == paper || player1 == paper && player2 == rock) {
-	alert('Player1 Win');
+	if (player1 == rock && player2 == scissors) {
+		alert('Player1 Win - rock < scissors');
+	}
+	if (player1 == scissors && player2 == paper) {
+		alert('Player1 Win - scissors < paper');
+	}
+	if (player1 == paper && player2 == rock) {
+		alert('Player1 Win - paper < rock');
+	}
 } else if (player2 == rock && player1 == scissors || player2 == scissors && player1 == paper || player2 == paper && player1 == rock) {
-	alert('Player2 Win');
+	if (player2 == rock && player1 == scissors) {
+		alert('Player1 Win - rock < scissors');
+	}
+	if (player2 == scissors && player1 == paper) {
+		alert('Player1 Win - scissors < paper');
+	}
+	if (player2 == paper && player1 == rock) {
+		alert('Player1 Win - paper < rock');
+	}
 } else if (player1 == rock && player2 == rock || player1 == scissors && player2 == scissors || player1 == paper && player2 == paper) {
-	alert('Draw');
+	if (player1 == rock && player2 == rock) {
+		alert('Draw - rock = rock');
+	}
+	if (player1 == scissors && player2 == scissors) {
+		alert('Draw - rock = rock');
+	}
+	if (player1 == paper && player2 == paper) {
+		alert('Draw - paper = paper');
+	}
 } else if (player1 != rock && player1 != scissors && player1 != paper && player2 != rock && player2 != scissors && player2 != paper) {
-	alert('Both players made a mistake');
+	alert('Both players made a mistake' + ' player1 wrote - "' + player1 + '"' + ' end ' + 'player2 wrote - "' + player2 + '"');
 } else if (player1 != rock && player1 != scissors && player1 != paper) {
-	alert('Player1 made a mistake');
+	alert('Player1 made a mistake by writing "' + player1 + '"');
 } else {
-	alert('Player2 made a mistake');
+	alert('Player2 made a mistake by writing "' + player2 + '"');
 }
