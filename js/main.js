@@ -36,7 +36,7 @@ if (player1 == rock && player2 == scissors || player1 == scissors && player2 == 
 		alert('Draw - paper = paper');
 	}
 } else if (player1 != rock && player1 != scissors && player1 != paper && player2 != rock && player2 != scissors && player2 != paper) {
-	alert('Both players made a mistake' + ' player1 wrote - "' + player1 + '"' + ' end ' + 'player2 wrote - "' + player2 + '"');
+	alert('Both players made a mistake: ' + 'player1 wrote - "' + player1 + '"' + ' end ' + 'player2 wrote - "' + player2 + '"');
 } else if (player1 != rock && player1 != scissors && player1 != paper) {
 	alert('Player1 made a mistake by writing "' + player1 + '"');
 } else {
