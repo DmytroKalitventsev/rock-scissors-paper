@@ -1,5 +1,5 @@
-let player1 = prompt('Player1 Your choice: r - rock, s - scissors, p -paper');
-let player2 = prompt('Player2 Your choice: r - rock, s - scissors, p -paper');
+let player1 = prompt('Player1 Your choice: r - rock, s - scissors, p - paper');
+let player2 = prompt('Player2 Your choice: r - rock, s - scissors, p - paper');
 
 let rock = 'r';
 let scissors = 's';
