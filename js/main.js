@@ -17,13 +17,13 @@ if (player1 == rock && player2 == scissors || player1 == scissors && player2 == 
 	}
 } else if (player2 == rock && player1 == scissors || player2 == scissors && player1 == paper || player2 == paper && player1 == rock) {
 	if (player2 == rock && player1 == scissors) {
-		alert('Player1 Win - rock < scissors');
+		alert('Player2 Win - rock < scissors');
 	}
 	if (player2 == scissors && player1 == paper) {
-		alert('Player1 Win - scissors < paper');
+		alert('Player2 Win - scissors < paper');
 	}
 	if (player2 == paper && player1 == rock) {
-		alert('Player1 Win - paper < rock');
+		alert('Player2 Win - paper < rock');
 	}
 } else if (player1 == rock && player2 == rock || player1 == scissors && player2 == scissors || player1 == paper && player2 == paper) {
 	if (player1 == rock && player2 == rock) {
